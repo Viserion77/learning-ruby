@@ -10,7 +10,7 @@ frutas[6] = 'abacaxi'
 frutas.insert(7, 'morango')
 
 frutas.pop # apaga o ultimo elemento
-frutas.pop(2) # apaga os ultimos 2 elementos
+frutas.pop(2) # apaga os últimos 2 elementos
 frutas.delete('uva') # apaga o elemento uva
 frutas.delete_at(0) # apaga o elemento na posição 0
 frutas.delete_if { |fruta| fruta.length > 5 } # apaga todos os elementos com mais de 5 caracteres
