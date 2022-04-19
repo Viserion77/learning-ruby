@@ -1,4 +1,4 @@
-# Execute isto tudo no terminal
+# Execute isto tudo no terminal (irb)
 a = 1
 a
 b = 2
