@@ -70,5 +70,5 @@ puts "You died.\n"
 puts "You killed #{odim.kills} monsters."
 
 puts "\n\nThanks for playing my game!\nViserion77"
-puts 'Press a key to exit.'
+puts 'Press enter to exit.'
 gets
