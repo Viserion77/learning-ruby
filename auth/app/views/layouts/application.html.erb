@@ -10,6 +10,26 @@
   </head>
 
   <body>
+    <% flash[:notice] %>
+    <ul>
+      <li>
+        <a href="/">
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="/products">
+          Products
+        </a>
+      </li>
+      <% if logged %>
+        <li>
+          <a href="/logout">
+            Logout
+          </a> | <%= session[:user_name] %>
+        </li>
+      <% end %>
+    </ul>
     <%= yield %>
   </body>
 </html>
