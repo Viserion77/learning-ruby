@@ -10,6 +10,10 @@ class Entity
   def is_alive?
     true if self.energy > 0
   end
+
+  def alive!
+    self.alive = true
+  end
 end
 
 class Monster < Entity
