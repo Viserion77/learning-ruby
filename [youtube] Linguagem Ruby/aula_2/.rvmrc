@@ -1,1 +1,1 @@
-rvm use 2.2.2@aula_2 --create
+rvm --create use 2.2.2@aula_2
